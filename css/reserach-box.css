@@ -1,0 +1,54 @@
+.box-dec{
+    border: 2px solid #ff0000;
+    border-radius: 25px;
+    background-color: #ccc;
+    width: 184px;
+    height: 80px;
+    padding: 1px 10px 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.services h6, .services p{
+    color: #ff0000;
+    font-size: 13px;
+}
+
+.box-dec a{
+    text-decoration: none;
+}
+.box-dec a:hover h6{
+    font-weight: bold;
+    animation: 0.3s all;
+}
+
+.box-dec2 {
+    border-color: #000;
+}
+
+/*Figure*/
+div.thecap{
+    color: #555;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+div.imgcap{
+    
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}

@@ -15,8 +15,7 @@
 	<link href="css/style.css" rel="stylesheet" />	
 	<link href="css/hexagons.css" rel="stylesheet" />
     <link href="css/img-modal-style.css" rel="stylesheet" />
-    <link href="css/rectangles-style.css" rel="stylesheet" />
-    <link href="css/hover-style.css" rel="stylesheet" />
+    <link href="css/reserach-box.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -37,7 +36,8 @@
                     </button>
                    <div class="navbar-brand">
                        <a href="index.html">
-                           <h1>Intelligent Systems Lab</h1>
+                           <img style="overflow: hidden; width:300px;"src="img/banner.png">
+                          <!-- <h1>Erlan H. Feria</h1><Intelligent Systems Lab</h1-->
                        </a>
 					</div>
                 </div>				
@@ -45,10 +45,10 @@
 					<div class="menu">
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation"><a href="index.html" class="active">Home</a></li>
-							<li role="presentation"><a href="#">About</a></li>
-							<li role="presentation"><a href="#">Research</a></li>
-							<li role="presentation"><a href="#">Publication</a></li>
-							<li role="presentation"><a href="contact.html">Contact</a></li>						
+							<li role="presentation"><a href="about.html">About me</a></li>
+							<li role="presentation"><a href="research.html">Research</a></li>
+							<li role="presentation"><a href="publications.html">Publication</a></li>
+							<li role="presentation"><a href="events.html">Events</a></li>						
 						</ul>
 					</div>
 				</div>		
@@ -68,91 +68,38 @@
 
 				<div class="carousel-inner">
 					<div class="item active">						
-						<img src="img/2.jpg" class="img-responsive" alt=""> 
+						<img src="img/science.png" class="img-responsive" alt="">
 						<div class="carousel-caption">
 							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">								
 								<h2><span>Erlan H. Feria's World</span></h2>
 							</div>
 							<div class="col-md-10 col-md-offset-1">
 								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">								
-									<p>I Present To You My Principal Academic Contributions</p>
+									<p>The Universal Duality Principle</p>
 								</div>
 							</div>
 							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">								
 								<form class="form-inline">
+									<!--div class="form-group">
+										<button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required" onclick="location.href='about.html'">About me</button>
+									</div-->
 									<div class="form-group">
-										<button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">About me</button>
+										<button type="livedemo" name="Get Now" class="btn btn-primary btn-lg" onclick="location.href='research.html'">My Research</button>
 									</div>
 									<div class="form-group">
-										<button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">My Research</button>
+										<button type="getnow" name="Get Now" class="btn btn-primary btn-lg">Events</button>
 									</div>
 								</form>
 							</div>
 						</div>
 				    </div>
-			
-				    <!--div class="item">
-						<img src="img/2.jpg" class="img-responsive" alt=""> 
-						<div class="carousel-caption">
-							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">								
-								<h2>Fully Responsive</h2>
-							</div>
-							<div class="col-md-10 col-md-offset-1">
-								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">								
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-								</div>
-							</div>
-							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">								
-								<form class="form-inline">
-									<div class="form-group">
-										<button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Live Demo</button>
-									</div>
-									<div class="form-group">
-										<button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Get Now</button>
-									</div>
-								</form>
-							</div>
-						</div>
-				    </div> 
-				    <div class="item">
-						<img src="img/2.jpg" class="img-responsive" alt=""> 
-						<div class="carousel-caption">
-							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">								
-								<h2>Modern Design</h2>
-							</div>
-							<div class="col-md-10 col-md-offset-1">
-								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">								
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-								</div>
-							</div>
-							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">								
-								<form class="form-inline">
-									<div class="form-group">
-										<button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Live Demo</button>
-									</div>
-									<div class="form-group">
-										<button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Get Now</button>
-									</div>
-								</form>
-							</div>
-						</div>
-				    </div> 
-				</div-->
-				
-				<!--a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
-					<i class="fa fa-angle-left"></i> 
-				</a>
-				
-				<a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">
-					<i class="fa fa-angle-right"></i> 
-				</a-->
-			</div> <!--/#carousel-slider-->
-		</div><!--/#about-slider-->
-	</div><!--/#slider-->
+			</div>
+		</div>
+	</div>
       </div>
 	
         
-	<div class="about">
+	<div class="about" id="about">
 		<div class="container">
 			<div class="text-center">
 				<h2>About Me</h2>
@@ -161,10 +108,10 @@
 				</div>
 		
 				<div class="col-md-6 col-sm-6 col-xs-6">
-					<div class="btn-gamp"><a href="/about">Read More</a></div>
+					<div class="btn-gamp"><a href="about.html">Read More</a></div>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-6">
-					<div class="gamp-btn"><a href="#">Recent Research</a></div>
+					<div class="gamp-btn"><a href="research.html">Recent Research</a></div>
 				</div>
 				
 			</div>	
@@ -199,22 +146,62 @@
 		</div>			
 	</div-->
 	
-	<section class="action">
+	<section class="action" id="research">
 		<div class="container">
 			<div class="left-text hidden-xs">
 				<h4>The Timeline of Discovery of <br> the Universal Cybernetics Duality Priciple (UCDP)</h4>
                 <p>
-                    <em>'Synergistic Physical and Mathematical Dualities Arise in Efficient System Designs'</em>
-                    <br><br>In 1978 while pursuing graduate studies in the modeling ò the CNS for biofeedback applications I discovered the <em>'universal cybernetics duality principle (UCDP)',</em> stating, <em>'synergistic Physical and Mathematical Dualities Arise in Efficient System Designs',</em> (see Invited SPIE Newsroom Article). This discovery has inherently led me to 'new methods and tools for the efficient  study of Science.'
+                    'Synergistic Physical and Mathematical Dualities Arise in Efficient System Designs'
+                    <br><br>In 1978 while pursuing graduate studies in the modeling ò the CNS for biofeedback applications I discovered the 'universal cybernetics duality principle (UCDP)', stating, 'synergistic Physical and Mathematical Dualities Arise in Efficient System Designs', (see Invited SPIE Newsroom Article). This discovery has inherently led me to 'new methods and tools for the efficient  study of Science.'
                 </p>
 			</div>
             <div class="right-image hidden-xs">
-                <img id="myImg" src="img/project.jpg" style="width:100%; height: 100%;">
+                <img id="myImg" src="img/project.png" style="width:100%; height: 100%;">
             </div>
 		</div>
 	</section>
 	
-  <!--  <div class="hexagons">
+      
+    <div class="services">
+        <div class="text-center">
+			<div class="container">			
+				<div class="col-md-2 col-md-offset-1 wow fadeInDown box-dec box-dec2" data-wow-duration="1000ms" data-wow-delay="300ms" style="border-color: #000;">
+                    <a href="optimum-control-case.html">
+                        <div class="test">
+                            <h6 style="color: #000;">Linear Quandratic Gaussian</h6>
+                            <p style="color: #000;">(LQG) Control Kalman 1968</p>
+                        </div>
+                    </a>
+                </div>
+				<div class="col-md-2 wow fadeInDown box-dec" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <a href="matched-processors-case.html">
+                        <h6>Matched Processors for Optimum Control</h6>
+					   <p>Feria 1981 CUNY PhD</p>
+                    </a>
+				</div>
+				<div class="col-md-2 wow fadeInDown box-dec" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <a href="latency-theory-case.html">
+                        <h6>Latency Information Theory </h6>
+                        <p>LIT</p>
+                    </a>
+				</div>
+                <div class="col-md-2 wow fadeInDown box-dec" data-wow-duration="1000ms" data-wow-delay="1200ms">
+                    <a href="retention-theory-case.html.html">
+                        <h6>Motion Retention Theory </h6>
+                        <p>MRT</p>
+                    </a>
+				</div>
+				<div class="col-md-2 wow fadeInDown box-dec" data-wow-duration="1000ms" data-wow-delay="1200ms">	
+                    <a href="lingerdynamics-case.html">
+                        <h6>Linger Thermo Theory </h6>
+                        <p>LTT</p>
+                    </a>
+				</div>
+			</div>
+      </div>
+	</div>
+
+    <!--<div class="hexagons">
         <ul id="hexGrid">
             <li class="hex">
                 <div class="hexIn">
@@ -262,70 +249,73 @@
                 </div>
             </li>  
         </ul>
-    </div>-->
-   
-    <div class="research-detail">
-        <div class="container">
-            <ul class="list-group list-group-horizontal">
-                <li class="list-group-item">
-                    <a href="#"><h6>Linear Quandratic Gaussian</h6>
-                        <p>(LQG) Control Kalman 1968</p></a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#">
-                        <h6>"Matched Processors for Optimum Control"</h6>
-                        <p>Feria 1981 CUNY PhD</p>
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#">
-                        <h6>Latency Information Theory (LIT)</h6>
-                        <p>Some sample text</p>
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#">
-                        <h6>Linger Thermo Theory (LTT) </h6>
-                        <p>Some sample text </p>
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="#">
-                        <h6>Motion Retention Theory (MRT) </h6>
-                        <p>Some sample text</p>
-                    </a>
-                </li>
-            </ul>
-        </div>  
-    </div>  
+    </div>
+	<div class="gallery">
+		<div class="text-center">
+			<h2>Gallery</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quod voluptate consequuntur ad quasi, dolores obcaecati ex aliquid, dolor provident </p>
+		</div>
+		<div class="container">		
+			<div class="col-md-4">
+				<figure class="effect-marley">
+					<img src="img/8.jpg" alt="" class="img-responsive"/>
+					<figcaption>
+						<h4>sweet marley</h4>
+						<p>Marley tried to convince her but she was not interested.</p>				
+					</figcaption>			
+				</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-marley">
+					<img src="img/9.jpg" alt="" class="img-responsive"/>
+					<figcaption>
+						<h4>sweet marley</h4>
+						<p>Marley tried to convince her but she was not interested.</p>				
+					</figcaption>			
+				</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-marley">
+					<img src="img/10.jpg" alt="" class="img-responsive"/>
+					<figcaption>
+						<h4>sweet marley</h4>
+						<p>Marley tried to convince her but she was not interested.</p>				
+					</figcaption>			
+				</figure>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="col-md-4">
+				<figure class="effect-marley">
+					<img src="img/11.jpg" alt="" class="img-responsive"/>
+					<figcaption>
+						<h4>sweet marley</h4>
+						<p>Marley tried to convince her but she was not interested.</p>				
+					</figcaption>			
+				</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-marley">
+					<img src="img/12.jpg" alt="" class="img-responsive"/>
+					<figcaption>
+						<h4>sweet marley</h4>
+						<p>Marley tried to convince her but she was not interested.</p>				
+					</figcaption>			
+				</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-marley">
+					<img src="img/13.jpg" alt="" class="img-responsive"/>
+					<figcaption>
+						<h4>sweet marley</h4>
+						<p>Marley tried to convince her but she was not interested.</p>				
+					</figcaption>			
+				</figure>
+			</div>
+		</div>
+	</div-->
     
-    <!--<div class="rectangle">
-        <div class="container">
-            <div class="row col-md-12 col-md-offset-0 grid-detail">
-                <div class="col-sm-2 well well-sm research-detail">
-                    <h5>Linear Quandratic Gaussian</h5>
-                    <p>(LQG) Control Kalman 1968</p>
-                </div>
-                <div class="col-sm-2 well well-sm research-detail">
-                    <h5>"Matched Processors for Optimum Control"</h5>
-                    <p>Feria 1981 CUNY PhD</p>
-                </div>
-                <div class="col-sm-2 well well-sm research-detail">
-                    <h5>Latency Information Theory (LIT)</h5>
-                    <p>Some sample text</p>
-                </div>
-                <div class="col-sm-2 well well-sm research-detail">
-                    <h5>Linger Thermo Theory (LTT) </h5>
-                    <p>Some sample text </p>
-                </div>
-                <div class="col-sm-2 well well-sm research-detail">
-                    <h5>Motion Retention Theory (MRT) </h5>
-                    <p>Some sample text</p>
-                </div>
-            </div>
-        </div>  
-    </div>-->
-      
 	<footer>
 		<div class="container">
 			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -363,11 +353,11 @@
 	
 	<div class="sub-footer">
 		<div class="container">
-				<div class="copyright">
-					&copy; 2018.All Rights Reserved.
-				</div>					
-		</div>				
-	</div>
+            <div class="copyright">
+                &copy; 2018.All Rights Reserved.
+            </div>					
+        </div>				
+    </div>
         
 	<div id="myModal" class="modal">
         <span class="close">&times;</span>
