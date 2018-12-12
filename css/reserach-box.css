@@ -40,7 +40,25 @@ div.imgcap{
     text-align: center;
 }
 
+#img-concept{
+    border-radius: 10px!important;
+    border: 1px solid #ccc!important;
+}
 
+.side-menu>li> a{
+    color: #444e5a;
+    font-size: 16px;
+}
+
+.side-menu>li> a:hover{
+    color: #1269d2;
+    font-size: 16px;
+}
+
+.chapter-title{
+    color: #1268d2;
+    font-weight: bold!important
+}
 /* Pagination */
 .pager {
   margin-bottom: 60px;

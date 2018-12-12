@@ -79,8 +79,8 @@ a:hover {
 	padding-top:5px;
 	float: left;	
 	font-size: 25px;	
-	color:#fff;	
-	text-transform:uppercase;
+	color:#444e5a;/*#fff;	*/
+	/*text-transform:uppercase;*/
 	font-weight:600;
 }
 
@@ -116,9 +116,10 @@ a:hover {
 	margin-bottom: 0;
 }
 
-.nav-tabs > li > a {	
+.nav-tabs > li > a {
+    font-size:15px;
 	border-radius:0;
-	color:#fff;
+	color:#444e5a;
 	padding:30px;
 }
 
@@ -128,7 +129,8 @@ a:hover {
 } 
 
 .nav-tabs > li a.active {
-	color: #555;
+    font-size: 20px
+	color: #444e5a;/*#555;*/
 	cursor: default;
 	background-color: #fff;
 	border: 1px solid #fff;
@@ -136,8 +138,8 @@ a:hover {
 }
 
 .navbar-default {
-	background-color: #65AAF0;
-	border-color:#65AAF0;
+	background-color: #fff; /*#65AAF0;*/
+	border-bottom: 2px solid #ccc;
 }
 
 /*===========================
@@ -197,7 +199,9 @@ a:hover {
 .carousel-caption {
 	position: absolute;
 	right: 15%;
-	bottom: 300px;
+	/*bottom: 0px;*/
+    padding: 0px;
+    top: -21px;
 	font-size:40px;
 	left: 15%;
 	z-index: 10;
