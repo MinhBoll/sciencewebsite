@@ -59,6 +59,11 @@ div.imgcap{
     color: #1268d2;
     font-weight: bold!important
 }
+
+.submenu{
+    font-size: 24px;
+    font-weight: bold;
+}
 /* Pagination */
 .pager {
   margin-bottom: 60px;

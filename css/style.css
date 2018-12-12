@@ -16,19 +16,20 @@ body {
 	font-size:14px;
 	font-weight:300;
 	line-height:1.6em;
-	color: #272727;
+	color: #444e5a;
 	background-color:#fff;
 	overflow-x:hidden;
 }
 
 hi,h2,h3,h4,h5,h6 {
-	color:#272727;
+	color:#444e5a;
 	line-height:1.1em;
 }
 
 p {
-	color:#272727;
+	color:#444e5a;
 	font-size:16px;
+    line-height: 28PX;
 }
 
 .intro-me p{
@@ -945,7 +946,7 @@ textarea#message{
 footer {
     position: relative;
 	padding:10px;
-	background:#65AAF0;
+	background:#444e5a;
 }
 
 footer p {
@@ -957,7 +958,7 @@ footer h4 {
 	text-transform:uppercase;
 	text-shadow:none;
 	font-weight:550;
-	color:#272727;
+	color:#83c8ef;
 }
 
 footer .btn-gamp a {
@@ -997,7 +998,9 @@ footer .btn-gamp input {
 	border-radius:0px;
 	border: 1px solid #fff;
 }
-
+.copyright{
+    color: #d6dbde
+}
 .contact-info {
 	color:#fff;
 }
