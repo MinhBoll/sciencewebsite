@@ -12,6 +12,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/sidenavbar2.css" rel="stylesheet">
     <link href="css/reserach-box.css" rel="stylesheet">
+    <link href="css/navbar-style.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,36 +21,40 @@
     <![endif]-->
   </head>
   <body>	
-      
+      <header role="banner">
+          <nav id="navbar-primary" class="navbar navbar1" role="navigation">
+              <div class="container-fluid">
+                  <div id="navbar-primary-collapse">
+                      <ul class="nav navbar-nav">
+                          <li><a href="#"><img id="logo-navbar-middle" src="img/banner.png" width="450" alt="Logo Thing main logo"></a></li>
+                      </ul>
+                  </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+          </nav>
+      </header><!-- header role="banner" -->
       <header id="header">
-          <nav class="navbar navbar-default navbar-static-top" role="banner">
-              <div class="container">
-                  <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                          <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                      </button>
-                      <div class="navbar-brand">
-                          <a href="index.html">
-                              <img style="overflow: hidden; width:300px;"src="img/banner.png">
-                          </a>
-                      </div>
-                  </div>				
-                  <div class="navbar-collapse collapse">							
-                      <div class="menu">
-                          <ul class="nav nav-tabs" role="tablist">
-                              <li role="presentation"><a href="index.html">Home</a></li>
-                              <li role="presentation"><a href="about.html">About</a></li>
-                              <li role="presentation"><a href="research.html">Research</a></li>
-                              <li role="presentation"><a href="publications.html">Publication</a></li>
-                              <li role="presentation"><a href="events.html">Events</a></li>						
-                          </ul>
-                      </div>
-                  </div>		
-              </div><!--/.container-->
-          </nav><!--/nav-->		
+         <nav class="navbar navbar-default" role="navigation" style="margin: 0px">
+             <!-- Brand and toggle get grouped for better mobile display -->
+             <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                 </button>
+             </div>
+             
+             <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="collapse navbar-collapse navbar-ex1-collapse">
+                 <ul class="nav navbar-nav">
+                     <li role="presentation"><a href="index.html">Home</a></li>
+                     <li role="presentation"><a href="about.html">About me</a></li>
+                     <li role="presentation"><a href="research.html">Research</a></li>
+                     <li role="presentation"><a href="publications.html">Publication</a></li>
+                     <li role="presentation"><a href="events.html">Events</a></li>
+                 </ul>
+             </div><!-- /.navbar-collapse -->
+          </nav>	
       </header><!--/header-->	
       <div class="row-offcanvas row-offcanvas-left">
           <div id="sidebar" class="sidebar-offcanvas">

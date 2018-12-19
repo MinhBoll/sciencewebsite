@@ -12,6 +12,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/sidenavbar2.css" rel="stylesheet">
     <link href="css/reserach-box.css" rel="stylesheet">
+    <link href="css/navbar-style.css" rel="stylesheet" />
       
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,36 +22,41 @@
     <![endif]-->
   </head>
   <body>	
+      <header role="banner">
+          <nav id="navbar-primary" class="navbar navbar1" role="navigation">
+              <div class="container-fluid">
+                  <div id="navbar-primary-collapse">
+                      <ul class="nav navbar-nav">
+                          <li><a href="#"><img id="logo-navbar-middle" src="img/banner.png" width="450" alt="Logo Thing main logo"></a></li>
+                      </ul>
+                  </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+          </nav>
+      </header><!-- header role="banner" -->
       <header id="header">
-          <nav class="navbar navbar-default navbar-static-top" role="banner">
-              <div class="container">
-                  <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                          <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                      </button>
-                      <div class="navbar-brand">
-                          <a href="index.html">
-                              <img style="overflow: hidden; width:300px;"src="img/banner.png">
-                          </a>
-                      </div>
-                  </div>				
-                  <div class="navbar-collapse collapse">							
-                      <div class="menu">
-                          <ul class="nav nav-tabs" role="tablist">
-                              <li role="presentation"><a href="index.html">Home</a></li>
-                              <li role="presentation"><a href="about.html">About</a></li>
-                              <li role="presentation"><a href="research.html">Research</a></li>
-                              <li role="presentation"><a href="publications.html">Publication</a></li>
-                              <li role="presentation"><a href="events.html">Events</a></li>						
-                          </ul>
-                      </div>
-                  </div>		
-              </div><!--/.container-->
-          </nav><!--/nav-->		
-      </header><!--/header-->	
+         <nav class="navbar navbar-default" role="navigation" style="margin: 0px">
+             <!-- Brand and toggle get grouped for better mobile display -->
+             <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                 </button>
+             </div>
+             
+             <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="collapse navbar-collapse navbar-ex1-collapse">
+                 <ul class="nav navbar-nav">
+                     <li role="presentation"><a href="index.html">Home</a></li>
+                     <li role="presentation"><a href="about.html">About me</a></li>
+                     <li role="presentation"><a href="research.html">Research</a></li>
+                     <li role="presentation"><a href="publications.html">Publication</a></li>
+                     <li role="presentation"><a href="events.html">Events</a></li>
+                 </ul>
+             </div><!-- /.navbar-collapse -->
+          </nav>	
+      </header><!--/header-->		
       <div class="row-offcanvas row-offcanvas-left">
           <div id="sidebar" class="sidebar-offcanvas">
               <div class="col-md-12">
@@ -72,26 +78,26 @@
                       <li><a href="research-conclusion.html">VIII - Conclusion</a></li>
                   </ul>
               </div>
-    </div>
-    <div id="main">
-        <div class="col-md-12">
-            <p class="visible-xs">
-                <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
-            </p>
-            <h2 class="chapter-title">I - Introduction</h2>
-            <div class="row">
-                <div class="col-lg-6 col-sm-6"><p>This is a short introduction of the research.Professor Feria received his B.E. and M.E. degrees in electrical engineering from the City College of New York (CCNY) of the City University of New York (CUNY). He also received the M.Phil. and Ph.D. degrees in electrical engineering from the Graduate School of CUNY, and did postdoctoral work in control sciences at CCNY. He has been with the College of Staten Island of CUNY since 1982, becoming a Full Professor in 1996.</p></div>
-                <div class="col-lg-6 col-sm-6" id="img-concept"><img src="img/project.png" class="img-responsive"></div>
-            </div>
-      </div>
-        <nav>
-        <ul class="pager">
-            <!--<li><a href="#">Previous</a></li>-->
-            <li><a href="duality-principle.html">Next</a></li>
-        </ul>
-        </nav>
-  </div>
-</div><!--/row-offcanvas -->
+          </div>
+          <div id="main">
+              <div class="col-md-12">
+                  <p class="visible-xs">
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
+                  </p>
+                  <h2 class="chapter-title">I - Introduction</h2>
+                  <div class="row">
+                      <div class="col-lg-6 col-sm-6"><p>This is a short introduction of the research.Professor Feria received his B.E. and M.E. degrees in electrical engineering from the City College of New York (CCNY) of the City University of New York (CUNY). He also received the M.Phil. and Ph.D. degrees in electrical engineering from the Graduate School of CUNY, and did postdoctoral work in control sciences at CCNY. He has been with the College of Staten Island of CUNY since 1982, becoming a Full Professor in 1996.</p></div>
+                      <div class="col-lg-6 col-sm-6" id="img-concept"><img src="img/project.png" class="img-responsive"></div>
+                  </div>
+              </div>
+              <nav>
+                  <ul class="pager">
+                      <!--<li><a href="#">Previous</a></li>-->
+                      <li><a href="duality-principle.html">Next</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </div><!--/row-offcanvas -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>		
     <!-- Include all compiled plugins (below), or include individual files as needed -->
