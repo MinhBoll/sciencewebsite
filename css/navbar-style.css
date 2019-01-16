@@ -30,3 +30,8 @@
     font-weight: bold;
     padding: 15px 30px 15px 30px;
 }
+
+#logo-navbar-middl{
+    max-width: 450px;
+    width: 100%;
+}

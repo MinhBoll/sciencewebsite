@@ -63,7 +63,18 @@ a:hover {
 	border-color:#f2f2f2;
 	color:#272727;	
 }
-	
+/*===========================
+  Logo/Banner
+============================ */
+#logo-navbar-middle{
+    max-width: 800px;
+    width: 100%;
+}
+
+a#for-logo:hover {
+    text-decoration: none; 
+}
+
 /*===========================
   Menu and Navigation
 ============================ */
